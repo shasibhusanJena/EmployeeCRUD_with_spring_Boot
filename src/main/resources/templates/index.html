@@ -2,24 +2,24 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 	<meta charset="ISO-8859-1">
-	<title>Welcome to CodeJava Home</title>
+	<title>Vendor service</title>
 	<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
 	<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container text-left">
-		<h1>Welcome to Spring boot basics</h1>
-		<h1
+		<h4>User Management Process</h4>	
+		<h1>
 			<hr color='blue'/>
 			<hr color='green'/>
 			<hr color='blue'/>
 		</h1>
-		
-		<h3><a th:href="@{/users}">List of Users</a></h3>
-		<h3><a th:href="@{/register}">Register new user</a></h3>
-		<h3><a th:href="@{/login}">Login with your detail</a></h3>
+		<h6>
+			<a th:href="@{/users}">List of Users</a><br>
+			<a th:href="@{/register}">Register new user</a><br>
+			<a th:href="@{/login}">User login</a>
+		</h6>
 	</div>
-	
 </body>
 </html>
